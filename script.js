@@ -16,5 +16,6 @@ if(marks>=49 && marks<=59);{grade==='C'};
 if(marks>=40 && marks<49);{grade==='D'}
 
 if(marks<40 && marks>0);{grade==='E'}
-
-return (grade);}
+return(grade)}
+//Formation of the condition.
+function checkcondition
