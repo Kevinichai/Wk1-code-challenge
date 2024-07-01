@@ -47,8 +47,5 @@ else if(grosssalary>=100000){NHIF=1700}
 //Net Salary determinant
 const netsalary=grosssalary-PAYE-NHIF-NSSF;
 
-return{grosssalary, PAYE, NSSF, NHIF, netsalary};
-
-
-
+return grosssalary, PAYE, NSSF, NHIF, netsalary;
 }

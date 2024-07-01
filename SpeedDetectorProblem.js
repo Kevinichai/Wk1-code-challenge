@@ -1,7 +1,6 @@
 function overspeedingregulator(speed){ 
     //Definition of key elements in the code
 
-    let speed=Number()
     const speedLimit= 70
     const kmsPerDemeritPointsDeducted=5
     const pointsDeductedPerExceedingSpeed=1
