@@ -1,18 +1,69 @@
-# Wk1-code-challenge
-# Student Grade Generator Toy Problem
+# SDF-FT10AP1 Hybrid Phase 1 Code Challenge-Toy Problems
 
-The first challenge in this week's code challenge involves the formulation of a solution for the student grade generator problem. The challenge requires the student to come up with a solution that would prompt a given user to input marks and get subsequent grades.
-My initial approach was to declare the function name for the sequence Iwas to code. I named the function,studentsMarksToGrade. 
-I used a let principle to create a prompt that would allow the user to input different marks and I also indicated that the marks element will be represented by numbers.
-I used the if and else conditiional operators to confine the prompts to digits limited between 0 and 100 and used console.log to show a string message if their inputs do not meet the valid criteria.
-Once this was done,I added various if statements that would help the user access the required grade upon inputing their marks.
-I ended the code with a return element to indicate that grade is the expected return of the function
+# Learning Goals/Outcomes
+How to use javascript to create viable programs to solve particular problems.
 
-# Speed Detector Toy Problem
-The second challenge involved the creation of a speed detector program that would allow the user to be able to tell cars taht exceed the speedlimit and penalize them accordingly. I declared my function as overspeeding regulator to ensure that the intention of the function is well addressed. I then proceeded to confine the speed element to numerical quantification as the speed is measured arithmetically. I then used the const function to confine the various parameters used to define my code to subsequent numerical values that are not interchangeable.I then proceeded to use the if and else conditional operators to dictate the counter result outputed by content inputed into the program.
-The program is ideal to be run on any available web browsers or online code editors.
+# Requirements
+For this project I am required to use a javascript environment to solve 3 predetermined code related problems.
 
-# Net Salary Calculator Problem
-The third challenge required the student to create a program that would help the user deduce their net salary. A net salary can be defined as the subsequent income derived from subtracting deductions such as PAYE,NSSF,NHIF,among others, from a persons gross income.Through the function element one can be able to create a program that is ideal to run on various web browsers and online code editors that can help the user do the task at hand.
-By using the let keyword,the code editor is able to code in a prompt that acts as a call to action prompting the user to input their basic salary as well as their benefits. The program uses a const keyword to dictate that the grosssalary is a sum of both this inputs.
-Using the grosssalary the program is able to calculate various deductions that are substracted from the gross salary in order for the user to get their net salary. 
+# Description
+The project required an individual to solve 3 code problems collectively refered to as 'toy problems.These problems are described in further detail below:
+
+Student Grade Generator Toy Problem
+
+This was first challenge in this week's code challenge and it involves the formulation of a solution for the student grade generator problem. The challenge requires the student to come up with a solution that would prompt a given user to input marks and get subsequent grades.
+
+Speed Detector Toy Problem
+
+The second challenge involved the creation of a speed detector program that would allow the user to be able to tell cars that exceed the speedlimit and penalize them accordingly.
+
+Net Salary Calculator Problem
+
+The third challenge required the student to create a program that would help the user deduce their net salary. A net salary can be defined as the subsequent income derived from subtracting deductions such as PAYE,NSSF,NHIF,among others, from a persons gross income.
+
+# Pre-Requisites.
+For one to be able to run this code they would need to have the following requirements:
+*A machine that runs on Windows 7+,Linux or Mac OS.
+*Nodejs 10.0+
+*An valid web browser with a developer console(usually accessed by pressing F12 or Ctrl+Shift+I in your browser) whereby you can paste the code intended to run.
+*A valid code editor such as VS Code or an online code editor such as Codepen
+
+# Installation
+In order to be able to access this repository,there are a variety of steps one can take.
+
+Alternative One
+
+*Open a terminal / command line interface on your local machine(computer)
+
+*Clone the repository holding this project by using the input:
+ git clone https://github.com/Kevinichai/Wk1-code-challenge.git
+
+*Wait for the sequence to run until it successfully clones the repository on your local machine
+
+*Navigate to the repo folder using the cd function
+
+*Open the repository on an editor of your choice(preferably Visual Studio Code)
+
+*You have successfully cloned this repo and can now navigate its contents
+
+Alternative Two
+*Make your way to the repository main page and press the fork button
+
+*This allows you to fork the repo to your individual github account from where you can use the first alternative to successfuly install this repo.
+
+# Running the Programs
+In order for one to successfully run these programs, a recent version of node.js is required.
+If the application is not installed use the command nvm install followed by the version required for use.So as to ensure that the version used is the one installed run the command,nvm use followed by the version of node installed.
+So as to avoid blockers and issues kindly use node from version 10 onwards.To check what node version is in use on your machine, run the command node-v on your terminal or command line interface.
+Alternatively,the programs can be run on a web browser's developer console(for example,Chrome and Mozilla Firefox)
+
+# Authors
+This project was created by Kevin Ichai and subsequently hosted on his github page.
+
+
+
+
+
+
+
+
