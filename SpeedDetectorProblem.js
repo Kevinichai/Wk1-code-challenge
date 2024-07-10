@@ -1,19 +1,26 @@
-function overspeedingregulator(speed){ 
-    //Definition of key elements in the code
+function overSpeedingRegulator(speed) {
+    // Definition of key elements in the code
+    const speedLimit = 70;
+    const kmsPerDemeritPoint = 5;
 
-    const speedLimit= 70
-    const kmsPerDemeritPointsDeducted=5
-    const pointsDeductedPerExceedingSpeed=1
+    // Initialize the points deducted variable
+    let pointsDeducted = 0;
 
-//Equation to get demerit points deducted per infraction
+    // Conditional statements confining the input values
+    if (speed < 0 || speed > 350) {
+        console.log('Invalid speed measurement inputted');
+    } else if (speed <= speedLimit) {
+        console.log('OK');
+    } else {
+        pointsDeducted = Math.floor((speed - speedLimit) / kmsPerDemeritPoint);
+        console.log('Overspeeding');
 
-   pointsDeductedPerExceedingSpeed=speed-speedLimit/kmsPerDemeritPointsDeducted
-   
-//conditional statements confining the inputed values.
+        if (pointsDeducted > 12) {
+            console.log('License suspended');
+        } else {
+            console.log('Points:', pointsDeducted);
+        }
+    }
 
-if (speed <0 && speed >350){console.log('Invalid speed measurement inputed')}
-if (speed <= 70(speedLimit)){console.log('OK')} else(speed>70);{console.log('Overspeeding')}
-if (pointsDeductedPerExceedingSpeed>12){console.log('license suspended')}else(console.log('Points')+ pointsDeductedPerExceedingSpeed)
-
-return{pointsDeductedPerExceedingSpeed,};
+    return { pointsDeducted };
 }
