@@ -1,3 +1,8 @@
+function promptingSpeedInput() {
+    const speed = parseFloat(prompt('Enter vehicle speed'));
+    overSpeedingRegulator(speed);
+}
+
 function overSpeedingRegulator(speed) {
     // Definition of key elements in the code
     const speedLimit = 70;
@@ -13,7 +18,6 @@ function overSpeedingRegulator(speed) {
         console.log('OK');
     } else {
         pointsDeducted = Math.floor((speed - speedLimit) / kmsPerDemeritPoint);
-        console.log('Overspeeding');
 
         if (pointsDeducted > 12) {
             console.log('License suspended');
@@ -24,3 +28,5 @@ function overSpeedingRegulator(speed) {
 
     return { pointsDeducted };
 }
+
+promptingSpeedInput();
